@@ -34,14 +34,14 @@ body {
 }
 
 .section-alt {
-  background: #0b1f3a;
+  background: #ffffff;
   border-top: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
 }
 
 /* Header */
 header {
-  background: #ffffff;
+  background: #0b1f3a;
   border-bottom: 1px solid #e5e7eb;
   position: relative;
 }
