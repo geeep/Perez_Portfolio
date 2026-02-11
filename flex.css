@@ -261,23 +261,31 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
   flex-wrap: wrap;
-  gap: 30px;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-right {
+  text-align: right;
 }
 
 .footer-logo {
   color: #ff5a5f;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .footer-left p,
 .footer-right p {
-  font-size: 0.9rem;
   margin-bottom: 6px;
-}
-
-.footer-right {
-  text-align: right;
+  font-size: 0.9rem;
 }
 
 .back-to-top {
