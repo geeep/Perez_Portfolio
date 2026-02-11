@@ -2,54 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gift Perez | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="flex.css" />
   </head>
 
   <body>
     <header>
-      <h1>Gift Perez</h1>
-      <nav>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="container nav">
+        <h1 class="logo">Gift Perez</h1>
+        <nav>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <section id="about">
-      <h2>About</h2>
+    <section class="hero container">
+      <h2>Computer Science Student</h2>
       <p>
-        I'm a Computer Science student at UPLB. I build simple, functional
-        projects in web and programming.
+        I build clean, functional projects in web development and programming.
+        Here are some of my selected works.
       </p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="container section">
       <h2>Projects</h2>
 
-      <div class="project">
-        <h3>Project Title</h3>
-        <p>Short description of what this project does.</p>
-        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-        <a href="#">View Code</a>
-      </div>
+      <div class="projects">
+        <div class="card">
+          <h3>Project Title</h3>
+          <p>Short description of what this project does.</p>
+          <p class="tech">HTML • CSS • JavaScript</p>
+          <a href="#">View Project</a>
+        </div>
 
-      <div class="project">
-        <h3>Another Project</h3>
-        <p>Short description of what this project does.</p>
-        <p><strong>Tech:</strong> Python</p>
-        <a href="#">View Code</a>
+        <div class="card">
+          <h3>Another Project</h3>
+          <p>Short description of what this project does.</p>
+          <p class="tech">Python • OpenCV</p>
+          <a href="#">View Code</a>
+        </div>
+
+        <div class="card">
+          <h3>Third Project</h3>
+          <p>Short description of what this project does.</p>
+          <p class="tech">C • Algorithms</p>
+          <a href="#">View Code</a>
+        </div>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>
+        I'm currently studying BS Computer Science at UPLB. I'm interested in
+        web development, data, and building systems that solve real problems.
+      </p>
+    </section>
+
+    <section id="contact" class="container section">
       <h2>Contact</h2>
-      <p>Email: youremail@example.com</p>
+      <p>Email: gmperez4@up.edu.ph</p>
       <p>GitHub: github.com/geeep</p>
     </section>
 
     <footer>
-      <p>© 2026 Gift Perez</p>
+      <div class="container">
+        <p>© 2026 Gift Perez</p>
+      </div>
     </footer>
   </body>
 </html>
