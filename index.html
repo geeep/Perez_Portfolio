@@ -12,60 +12,168 @@
       <div class="container nav">
         <h1 class="logo">Gift Perez</h1>
         <nav>
-          <a href="#projects">Projects</a>
           <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
     </header>
 
-    <section class="hero container">
-      <h2>Computer Science Student</h2>
-      <p>
-        I build clean, functional projects in web development and programming.
-        Here are some of my selected works.
-      </p>
-    </section>
+    <!-- HERO / FEATURED PHOTO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="tag">Applying for Frontend Software Engineer • Gugil Co.</p>
+          <h2>Computer Science Student & Aspiring Frontend Engineer</h2>
+          <p>
+            I build clean, functional web interfaces and enjoy turning
+            requirements into reliable UI. I’ve worked with Laravel during my
+            internship and I’m comfortable collaborating with a team and
+            shipping features on time.
+          </p>
 
-    <section id="projects" class="container section">
-      <h2>Projects</h2>
-
-      <div class="projects">
-        <div class="card">
-          <h3>ABIOOR Shop</h3>
-          <p>E-commerce app built on laravel framework (for internship)</p>
-          <p class="tech">PHP • Inertia-React • TypeScript</p>
-          <a href="https://github.com/geeep/abiooshop">View Project</a>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>Another Project</h3>
-          <p>Short description of what this project does.</p>
-          <p class="tech">Python • OpenCV</p>
-          <a href="#">View Code</a>
-        </div>
-
-        <div class="card">
-          <h3>Third Project</h3>
-          <p>Short description of what this project does.</p>
-          <p class="tech">C • Algorithms</p>
-          <a href="#">View Code</a>
+        <div class="hero-photo">
+          <img src="profile.jpg" alt="Photo of Gift Perez" />
+          <p class="photo-caption">Featured Photo</p>
         </div>
       </div>
     </section>
 
+    <!-- AUTOBIOGRAPHY -->
     <section id="about" class="container section">
-      <h2>About</h2>
+      <h2>Autobiography</h2>
       <p>
-        I'm currently studying BS Computer Science at UPLB. I'm interested in
-        web development, data, and building systems that solve real problems.
+        My name is Gift Perez, a graduating Computer Science student from UPLB.
+        I got into programming by building small tools and websites, and I ended
+        up enjoying frontend work the most—especially making layouts clean and
+        user-friendly.
+      </p>
+      <p>
+        During my internship, I worked on a Laravel-based system where I learned
+        how to communicate progress, handle feedback, and implement features
+        with a real team workflow. I’m currently focused on improving my
+        frontend skills, writing maintainable code, and building projects that
+        demonstrate real value.
       </p>
     </section>
 
-    <section id="contact" class="container section">
-      <h2>Contact</h2>
-      <p>Email: gmperez4@up.edu.ph</p>
-      <p>GitHub: github.com/geeep</p>
+    <!-- SKILLS (MANAGEMENT + WEB PROGRAMMING) -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Web Programming</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript (responsive layouts)</li>
+              <li>Basic UI/UX structure (spacing, typography, consistency)</li>
+              <li>
+                Laravel exposure: routing, controllers, views, teamwork workflow
+              </li>
+              <li>
+                Git/GitHub basics (commits, branches, deployment via Pages)
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Management / Collaboration</h3>
+            <ul>
+              <li>Task breakdown: turning requirements into checklist items</li>
+              <li>
+                Team communication: updates, asking the right questions early
+              </li>
+              <li>Time management: prioritizing deliverables and deadlines</li>
+              <li>
+                Documentation: writing clear notes and handoff instructions
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Tools</h3>
+            <ul>
+              <li>VS Code, GitHub, basic debugging</li>
+              <li>Figma / references for layout inspiration (optional)</li>
+              <li>Windows + Linux familiarity (optional)</li>
+              <li>Add more tools you actually use</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <p class="muted">
+        Selected works that show my experience in web development and
+        programming.
+      </p>
+
+      <div class="projects">
+        <div class="card">
+          <h3>ABIOOR Shop</h3>
+          <p>E-commerce app built using Laravel during my internship.</p>
+          <p class="tech">PHP • Laravel • Inertia-React • TypeScript</p>
+          <a
+            href="https://github.com/geeep/abiooshop"
+            target="_blank"
+            rel="noreferrer"
+            >View Project</a
+          >
+        </div>
+
+        <div class="card">
+          <h3>Computer Vision Exercise</h3>
+          <p>
+            Image processing tasks (histograms, brightness/contrast,
+            equalization).
+          </p>
+          <p class="tech">Python • OpenCV</p>
+          <a href="#" target="_blank" rel="noreferrer">View Code</a>
+        </div>
+
+        <div class="card">
+          <h3>Algorithms / C Projects</h3>
+          <p>
+            Practice implementations focusing on correctness and efficiency.
+          </p>
+          <p class="tech">C • Data Structures</p>
+          <a href="#" target="_blank" rel="noreferrer">View Code</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact">
+        <div>
+          <h2>Contact</h2>
+          <p class="muted">I’m available for interviews and technical exams.</p>
+        </div>
+
+        <div class="contact-links">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:gmperez4@up.edu.ph">gmperez4@up.edu.ph</a>
+          </p>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/geeep" target="_blank" rel="noreferrer"
+              >github.com/geeep</a
+            >
+          </p>
+        </div>
+      </div>
     </section>
 
     <footer>

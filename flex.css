@@ -33,6 +33,12 @@ body {
   padding: 90px 0;
 }
 
+.section-alt {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
 /* Header */
 header {
   background: #ffffff;
@@ -75,8 +81,28 @@ nav a:hover {
 
 /* Hero */
 .hero {
-  padding: 110px 0 70px;
+  padding: 90px 0;
   background: #fff5f5;
+}
+
+.hero-inner {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #ef4444;
+  margin-bottom: 12px;
 }
 
 .hero h2 {
@@ -86,13 +112,57 @@ nav a:hover {
 }
 
 .hero p {
-  max-width: 600px;
+  max-width: 620px;
   color: #6b7280;
   font-size: 1rem;
 }
 
-/* Projects */
-.projects {
+/* Buttons */
+.hero-actions {
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ef4444;
+  background: #ef4444;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: #ef4444;
+}
+
+/* Featured photo */
+.hero-photo {
+  width: 260px;
+}
+
+.hero-photo img {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  display: block;
+}
+
+.photo-caption {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  text-align: center;
+}
+
+/* Projects + Skills grids */
+.projects,
+.skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 28px;
@@ -123,21 +193,48 @@ nav a:hover {
   font-size: 0.95rem;
 }
 
+.card ul {
+  padding-left: 18px;
+  color: #6b7280;
+}
+
 .card .tech {
   margin: 14px 0;
   font-size: 0.85rem;
   color: #9ca3af;
 }
 
-/* accent link */
 .card a {
   text-decoration: none;
   color: #ef4444;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .card a:hover {
   color: #dc2626;
+}
+
+.muted {
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  color: #ef4444;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
