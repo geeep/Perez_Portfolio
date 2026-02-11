@@ -299,3 +299,18 @@ footer {
 .back-to-top:hover {
   text-decoration: underline;
 }
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer-link:hover {
+  border-bottom-color: #ff5a5f;
+}
+
+.footer-copy {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
