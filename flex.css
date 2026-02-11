@@ -18,8 +18,8 @@ body {
     Arial,
     sans-serif;
   line-height: 1.6;
-  color: #1f2937;
-  background: #f4f6f9;
+  color: #0f172a; /* navy text */
+  background: #f7f8fc; /* cool off-white */
 }
 
 /* Layout */
@@ -46,11 +46,12 @@ header {
   position: relative;
 }
 
+/* accent bar (coral) */
 header::after {
   content: "";
   display: block;
   height: 3px;
-  background: #ef4444;
+  background: #ff5a5f; /* coral accent */
 }
 
 .nav {
@@ -61,28 +62,28 @@ header::after {
 }
 
 .logo {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.1rem;
-  letter-spacing: 0.5px;
-  color: #ef4444;
+  letter-spacing: 0.3px;
+  color: #0b1f3a; /* deep blue */
 }
 
 nav a {
   margin-left: 24px;
   text-decoration: none;
-  color: #4b5563;
+  color: #334155; /* slate */
   font-weight: 500;
   transition: 0.2s ease;
 }
 
 nav a:hover {
-  color: #ef4444;
+  color: #ff5a5f; /* coral */
 }
 
 /* Hero */
 .hero {
   padding: 90px 0;
-  background: #fff5f5;
+  background: #f1f5ff; /* very light blue tint */
 }
 
 .hero-inner {
@@ -101,19 +102,20 @@ nav a:hover {
 .tag {
   display: inline-block;
   font-size: 0.9rem;
-  color: #ef4444;
+  color: #ff5a5f; /* coral */
   margin-bottom: 12px;
 }
 
 .hero h2 {
   font-size: 2.3rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 18px;
+  color: #0b1f3a;
 }
 
 .hero p {
   max-width: 620px;
-  color: #6b7280;
+  color: #475569; /* muted slate */
   font-size: 1rem;
 }
 
@@ -129,16 +131,25 @@ nav a:hover {
   display: inline-block;
   padding: 10px 14px;
   border-radius: 10px;
-  border: 1px solid #ef4444;
-  background: #ef4444;
+  border: 1px solid #ff5a5f;
+  background: #ff5a5f;
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff4248;
+  border-color: #ff4248;
 }
 
 .btn.ghost {
   background: transparent;
-  color: #ef4444;
+  color: #ff5a5f;
+}
+
+.btn.ghost:hover {
+  background: rgba(255, 90, 95, 0.08);
 }
 
 /* Featured photo */
@@ -151,12 +162,13 @@ nav a:hover {
   border-radius: 14px;
   border: 1px solid #e5e7eb;
   display: block;
+  box-shadow: 0 14px 30px rgba(11, 31, 58, 0.15); /* subtle navy shadow */
 }
 
 .photo-caption {
   margin-top: 10px;
   font-size: 0.85rem;
-  color: #9ca3af;
+  color: #64748b;
   text-align: center;
 }
 
@@ -178,44 +190,45 @@ nav a:hover {
 }
 
 .card:hover {
-  border-color: #ef4444;
-  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.08);
+  border-color: #b9c7ff; /* light blue hint */
+  box-shadow: 0 10px 24px rgba(11, 31, 58, 0.08);
 }
 
 .card h3 {
   margin-bottom: 12px;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 700;
+  color: #0b1f3a;
 }
 
 .card p {
-  color: #6b7280;
+  color: #475569;
   font-size: 0.95rem;
 }
 
 .card ul {
   padding-left: 18px;
-  color: #6b7280;
+  color: #475569;
 }
 
 .card .tech {
   margin: 14px 0;
   font-size: 0.85rem;
-  color: #9ca3af;
+  color: #64748b;
 }
 
 .card a {
   text-decoration: none;
-  color: #ef4444;
-  font-weight: 600;
+  color: #ff5a5f; /* coral */
+  font-weight: 700;
 }
 
 .card a:hover {
-  color: #dc2626;
+  text-decoration: underline;
 }
 
 .muted {
-  color: #6b7280;
+  color: #64748b;
   margin-top: 8px;
 }
 
@@ -229,8 +242,9 @@ nav a:hover {
 }
 
 .contact-links a {
-  color: #ef4444;
+  color: #ff5a5f;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .contact-links a:hover {
@@ -244,5 +258,5 @@ footer {
   padding: 50px 0;
   text-align: center;
   font-size: 0.9rem;
-  color: #9ca3af;
+  color: #64748b;
 }
