@@ -1,93 +1,55 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Sample Web Page</title>
-    <link rel="stylesheet" type="text/css" href="flex.css" />
-
+    <meta charset="UTF-8" />
+    <title>Gift Perez | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    
-    <nav>
-    <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/css/">CSS</a>
-        </div> 
-    |   <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
-        </div>
-    </div>
-    </nav>
+    <header>
+      <h1>Gift Perez</h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I'm a Computer Science student at UPLB. I build simple, functional
+        projects in web and programming.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Project Title</h3>
+        <p>Short description of what this project does.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <a href="#">View Code</a>
+      </div>
+
+      <div class="project">
+        <h3>Another Project</h3>
+        <p>Short description of what this project does.</p>
+        <p><strong>Tech:</strong> Python</p>
+        <a href="#">View Code</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: youremail@example.com</p>
+      <p>GitHub: github.com/geeep</p>
+    </section>
+
+    <footer>
+      <p>© 2026 Gift Perez</p>
+    </footer>
   </body>
-
 </html>
