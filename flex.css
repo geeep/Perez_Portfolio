@@ -18,8 +18,8 @@ body {
     Arial,
     sans-serif;
   line-height: 1.6;
-  color: #0f172a; /* navy text */
-  background: #f7f8fc; /* cool off-white */
+  color: #0f172a;
+  background: #f7f8fc;
 }
 
 /* Layout */
@@ -51,7 +51,7 @@ header::after {
   content: "";
   display: block;
   height: 3px;
-  background: #ff5a5f; /* coral accent */
+  background: #ff5a5f;
 }
 
 .nav {
@@ -65,25 +65,25 @@ header::after {
   font-weight: 700;
   font-size: 1.1rem;
   letter-spacing: 0.3px;
-  color: #0b1f3a; /* deep blue */
+  color: #0b1f3a;
 }
 
 nav a {
   margin-left: 24px;
   text-decoration: none;
-  color: #334155; /* slate */
+  color: #334155;
   font-weight: 500;
   transition: 0.2s ease;
 }
 
 nav a:hover {
-  color: #ff5a5f; /* coral */
+  color: #ff5a5f;
 }
 
 /* Hero */
 .hero {
   padding: 90px 0;
-  background: #f1f5ff; /* very light blue tint */
+  background: #f1f5ff;
 }
 
 .hero-inner {
@@ -102,7 +102,7 @@ nav a:hover {
 .tag {
   display: inline-block;
   font-size: 0.9rem;
-  color: #ff5a5f; /* coral */
+  color: #ff5a5f;
   margin-bottom: 12px;
 }
 
@@ -115,7 +115,7 @@ nav a:hover {
 
 .hero p {
   max-width: 620px;
-  color: #475569; /* muted slate */
+  color: #475569;
   font-size: 1rem;
 }
 
@@ -162,7 +162,7 @@ nav a:hover {
   border-radius: 14px;
   border: 1px solid #e5e7eb;
   display: block;
-  box-shadow: 0 14px 30px rgba(11, 31, 58, 0.15); /* subtle navy shadow */
+  box-shadow: 0 14px 30px rgba(11, 31, 58, 0.15);
 }
 
 .photo-caption {
@@ -190,7 +190,7 @@ nav a:hover {
 }
 
 .card:hover {
-  border-color: #b9c7ff; /* light blue hint */
+  border-color: #b9c7ff;
   box-shadow: 0 10px 24px rgba(11, 31, 58, 0.08);
 }
 
@@ -219,7 +219,7 @@ nav a:hover {
 
 .card a {
   text-decoration: none;
-  color: #ff5a5f; /* coral */
+  color: #ff5a5f;
   font-weight: 700;
 }
 
